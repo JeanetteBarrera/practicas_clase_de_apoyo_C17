@@ -1,0 +1,26 @@
+[
+    {
+        "codigo": "ADKRI84FJ",
+        "fecha_caducidad": "2022-07-12",
+        "active": false,
+        "descuento": 20
+    },
+    {
+        "codigo": "ALDSF8654",
+        "fecha_caducidad": "2022-07-12 23:59:59",
+        "active": true,
+        "descuento": 20
+    },
+    {
+        "codigo": "SFUTE864D",
+        "fecha_caducidad": "2022-06-1",
+        "active": true,
+        "descuento": 10
+    },
+    {
+        "codigo": "SUW502S6H",
+        "fecha_caducidad": "2016-07-12",
+        "active": false,
+        "descuento": 20
+    }
+]
