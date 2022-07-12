@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+:root {
+    --color-p: linear-gradient(90deg, #0162c8, #55e7fc);
+    --color-s: linear-gradient(90deg, #755bea, #ff72c0);
+    --tipography: monospace;
+}
+/*
+body .container_buttons a{
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-block;
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container_buttons {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container_buttons a {
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-family: var(--tipography);
+    background: var(--color-p);
+    color: white;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    transition: transform .2s ease-in-out ;
+}
+.container_buttons a:last-child {
+    background: var(--color-s)
+}
+
+.container_buttons a:hover {
+    /*letter-spacing: 1px;*/
+    transform: scale(1.2);
+}
